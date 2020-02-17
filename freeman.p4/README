@@ -1,0 +1,58 @@
+#2 FSA Table + driver
+FSA table -> scanner.cpp
+
+Caleb Freeman
+CS4280 - Program Translation
+Instructor: Dr. Sharlee Climer
+Project P1: Scanner
+
+1-CONTENTS
+----------
+main.cpp          - source code
+scanner.cpp       - scanner code
+  scanner.h     
+testScanner.cpp   - program driver
+  testScanner.h
+token.h           - token struct
+parser.cpp        - parser to replace testScanner
+  paraser.h
+node.h            - contains node and children for parser and printing parse tree
+treePrint.cpp     - uses parser and node.h struct to print parse tree
+  treePrint.h
+.git/             - git Repository
+codeGenerator.cpp - generates ASM code
+  codeGenerator.h
+Makefile          - makefile
+README            - this file
+
+2-WORKS CITED
+----------
+
+
+3-COMMAND LINE ARGUMENTS
+----------
+Usage: ./frontEnd [filename]
+
+
+4-CODE COMPILATION:
+---------
+In my computer I am able to run the make file an execute with ./P1
+example:
+>make
+>./frontEnd [filename.txt]
+
+5-DESIGN DECISIONS & ISSUES
+---------
+Design Decisions:
+runningout of time
+Major Issues:
+have code for recursive function calls to build ASM language, and basic output is done.
+Havnig issues with <T> and getting recursive calls after T() to behave correctly.
+
+
+minor Issues:
+f_temp in main.cpp needs to concatinate argv[1] with .asm for criteria
+
+6-GIT LOG
+----------
+

@@ -1,0 +1,9 @@
+program
+var id1 .
+var id2 .
+begin barz
+var id3 .
+if [ id1 > 14 ]
+write id3 , ,
+#
+end

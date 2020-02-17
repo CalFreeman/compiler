@@ -1,0 +1,4 @@
+READ T0
+STORE
+STOP
+id10 

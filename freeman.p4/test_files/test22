@@ -1,0 +1,9 @@
+program
+var id1 .
+var id2 .
+begin
+if [ id1 > 14 ]
+write id3 , ,
+#
+end
+
